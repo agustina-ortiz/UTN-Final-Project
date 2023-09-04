@@ -1,0 +1,7 @@
+.footerSection {
+    display: flex;
+    justify-content: center;
+    color: #c5c0c0;
+    background-color: #23262c;
+    font-size: 15px;
+}

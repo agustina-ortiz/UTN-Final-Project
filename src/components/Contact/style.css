@@ -1,0 +1,201 @@
+.contactSection {
+    padding-left: 100px;
+    padding: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2e35;
+}
+
+.contactTitle {
+    font-size: 46px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 700;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.contactSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.contactPhoneSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.contactPhoneIcon svg {
+    color: #efc783;
+    width: 2em;
+    height: 20px;
+    margin-top: 3px;
+}
+
+.contactPhone {
+    color: #fff;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.contactMailSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.contactMailIcon svg {
+    color: #efc783;
+    width: 2em;
+    height: 23px;
+    margin-top: 3px;
+}
+
+.contactMail {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.contactLine {
+    color: #cb8a18;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.contactForm {
+    width: 750px;
+    height: 350px;
+}
+
+.inputForm {
+    height: 50px;
+    margin: 10px;
+    width: 330px;
+    background-color: #23272c;
+    color: #979696;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 0.5em;
+    border: none;
+}
+
+.inputBlock {
+    display: block;
+    width: 92%;
+}
+
+.inputMessage {
+    height: 130px;
+    padding-top: 3px;
+}
+
+.contactFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contactCheck {
+    color: #fff;
+    font-size: 17px;
+    margin: 15px;
+}
+
+.contactButton {
+    font-size: 16px;
+    color: #fff;
+    background-color: #ed9657;
+    height: 48px;
+    width: 110px;
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+}
+
+.contactButton:hover {
+    background-color: #eca572;
+}
+
+.contactMap {
+    background-color: #23272c;
+    border-radius: 0.5em;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.map {
+    width: 330px;
+    height: 230px;
+    padding: 19px;
+    border: none;
+}
+
+
+
+/* ------------ RESPONSIVE ------------ */
+
+@media (max-width: 800px) {
+    .contactSection {
+        padding-left: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .contactSub {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .contactPhoneSection {
+        margin-left: 0;
+    }
+    .contactMailSection {
+        margin-left: 0;
+    }
+    .contactLine {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 35px;
+    }
+    .contactForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .contactForm label {
+        display: flex;
+        justify-content: center;
+    }
+    .inputForm {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+    .contactMap {
+        display: flex;
+        justify-content: center;
+        margin-top: 130px;
+        margin-bottom: 90px;
+        margin-right: 0;
+    }
+}

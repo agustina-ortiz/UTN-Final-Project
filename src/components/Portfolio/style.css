@@ -1,0 +1,96 @@
+
+.portfolioSection {
+    padding: 130px;
+    padding-top: 40px;
+    padding-left: 90px;
+    background-color: #2b2e35;
+}
+
+.portfolioBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.portfolioTitle {
+    font-size: 46px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    display: flex;
+    justify-content: start;
+    font-weight: 700;
+    margin-bottom: 3px;
+    margin-right: 310px;
+}
+
+.list {
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.portfolioListBtn :hover {
+    background-color: #404247;
+    color: #fff;
+    border-radius: 1.5em;
+    border: 1px solid #fff;
+}
+
+.portfolioLine {
+    color: #a2721e;
+    margin: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.loadBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: auto;
+    color: #fff;
+    background-color: #ed9657;
+    height: 50px;
+    width: 130px;
+    border-radius: 2.5em;
+    border: none;
+    cursor: pointer;
+}
+
+.portfolioImg {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 5px;
+}
+
+
+/* ------------ RESPONSIVE ------------ */
+
+@media (max-width: 800px) {
+    .column{
+        flex: 50%;
+    }
+    .portfolioSection {
+        padding: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .column{
+        flex: 100%;
+    }
+}

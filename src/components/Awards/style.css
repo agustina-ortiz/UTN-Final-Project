@@ -1,0 +1,123 @@
+.awardsSection {
+    padding: 50px;
+    margin-top: 40px;
+    margin: 90px;
+}
+
+.awardTitle {
+    font-size: 46px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.awardLine {
+    color: #a2721e;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.awardsCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+
+.awardCard {
+    border: 1px solid none;
+    margin: 20px;
+    height: 190px;
+    width: 360px;
+    background-color: #303236;
+    margin-bottom: 0;
+}
+
+.trophyTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trophy {
+    margin: 20px;
+    color: #bf8c34;
+    display: flex;
+    margin-left: -20px;
+}
+
+.trophy svg {
+    height: 3em;
+    width: 3em;
+}
+
+.awardYear {
+    color: #878484;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.awardCardTitle {
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 28px;
+    font-weight: 600;
+}
+
+.awardCardText {
+    color: #beb7b7;
+    margin-top: 5px;
+    margin-left: 28px;
+    margin-bottom: 0;
+}
+
+.cardLine {
+    color: #fff;
+    margin-left: 28px;
+}
+
+.awardBtn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #c5c0c0;
+    background: none;
+    border: none;
+    margin: 2px;
+}
+
+.awardBtn a {
+    text-decoration: none;
+    color: #c5c0c0;
+}
+
+.awardBtn a:hover {
+    color: #8f8a8a;
+}
+
+.awardsBtnSection {
+    margin: 5px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ------------ RESPONSIVE ------------ */
+
+@media (max-width: 800px) {
+    .awardsCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+}
