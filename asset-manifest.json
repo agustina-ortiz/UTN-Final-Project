@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/UTN-Final-Project/static/css/main.35371241.css",
+    "main.js": "/UTN-Final-Project/static/js/main.ff0694e5.js",
+    "static/js/787.a88129d0.chunk.js": "/UTN-Final-Project/static/js/787.a88129d0.chunk.js",
+    "static/media/home.png": "/UTN-Final-Project/static/media/home.01001e98226e0edeffae.png",
+    "static/media/hameeda.png": "/UTN-Final-Project/static/media/hameeda.712c7b4ebdebeb9270d9.png",
+    "static/media/aamir.png": "/UTN-Final-Project/static/media/aamir.7920816bdf7fe6f034e5.png",
+    "static/media/photo11.jpg": "/UTN-Final-Project/static/media/photo11.246f3ba59289ababb555.jpg",
+    "static/media/photo6.jpg": "/UTN-Final-Project/static/media/photo6.48deaa4bd3d1c4bfda26.jpg",
+    "static/media/photo9.jpg": "/UTN-Final-Project/static/media/photo9.347ec32a705719594ca4.jpg",
+    "static/media/living2.jpg": "/UTN-Final-Project/static/media/living2.8ced4e1f290118cf5752.jpg",
+    "static/media/photo2.jpg": "/UTN-Final-Project/static/media/photo2.5c4ae78a7fa4cd772dac.jpg",
+    "static/media/photo3.jpg": "/UTN-Final-Project/static/media/photo3.878957c89391b2a27c28.jpg",
+    "static/media/living3.jpg": "/UTN-Final-Project/static/media/living3.9a947203c5b9e20e94e9.jpg",
+    "static/media/photo4.jpg": "/UTN-Final-Project/static/media/photo4.1ce08c84b488b6063a9a.jpg",
+    "static/media/photo5.jpg": "/UTN-Final-Project/static/media/photo5.17eca98d115869be7cc9.jpg",
+    "static/media/photo12.jpg": "/UTN-Final-Project/static/media/photo12.6feb9449ec62dc7b2ba2.jpg",
+    "static/media/photo8.jpg": "/UTN-Final-Project/static/media/photo8.2c5d5febe3430aabe31d.jpg",
+    "static/media/photo1.jpg": "/UTN-Final-Project/static/media/photo1.76fe67fb8e88e7266f23.jpg",
+    "static/media/photo7.jpg": "/UTN-Final-Project/static/media/photo7.3f09f892a7fafa5f2e70.jpg",
+    "static/media/photo10.jpg": "/UTN-Final-Project/static/media/photo10.e5cbdd134ae2312604b2.jpg",
+    "index.html": "/UTN-Final-Project/index.html",
+    "main.35371241.css.map": "/UTN-Final-Project/static/css/main.35371241.css.map",
+    "main.ff0694e5.js.map": "/UTN-Final-Project/static/js/main.ff0694e5.js.map",
+    "787.a88129d0.chunk.js.map": "/UTN-Final-Project/static/js/787.a88129d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35371241.css",
+    "static/js/main.ff0694e5.js"
+  ]
+}
